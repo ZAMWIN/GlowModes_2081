@@ -400,6 +400,15 @@ cmake --build build-2081 --config RelWithDebInfo --parallel 6
 
 ---
 
+## Участники
+
+- **zam** — автор, дизайн, тестирование и релиз.
+- **OpenCode AI assistant (DeepSeek V4.1 Flash Free)** — код, Geode-хуки, GUI, сборка и подготовка релиза.
+
+Подробнее: [CONTRIBUTORS.md](CONTRIBUTORS.md).
+
+---
+
 ## Лицензия / авторство
 
 Автор: zam. Сделано с помощью ИИ-ассистента (Geode SDK). Свечение реализовано через хуки Geode `$modify` на `PlayerObject`.
