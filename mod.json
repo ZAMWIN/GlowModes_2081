@@ -1,0 +1,26 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081"
+	},
+	"id": "zam.per-gamemode-glow",
+	"name": "Per-Gamemode Glow",
+	"version": "v1.1.0",
+	"developer": "zam",
+	"description": "Gives every player gamemode (cube, ship, ball, UFO, wave, robot, spider, swing) its own independent glow colour, brightness, blend mode and pulse, instead of one global glow for all of them.",
+	"logo": "logo.png",
+	"settings": {
+		"enabled": {
+			"name": "Enabled",
+			"description": "Master switch. When off, the mod does nothing and glow is fully vanilla.",
+			"type": "bool",
+			"default": true
+		},
+		"respect-global-toggle": {
+			"name": "Respect in-game glow toggle",
+			"description": "When on (recommended), the mod only overrides glow while the game's own 'Glow' option is enabled in the icon kit.",
+			"type": "bool",
+			"default": true
+		}
+	}
+}

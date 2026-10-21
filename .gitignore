@@ -1,0 +1,14 @@
+# Build output
+build/
+build-*/
+out/
+.vs/
+
+# CMake / Visual Studio user files
+CMakeUserPresets.json
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.vcxproj*
+*.sln
